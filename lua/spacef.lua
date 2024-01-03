@@ -141,7 +141,7 @@ Group.new('StatusLineTerm', colors.green, colors.black, nil)
 Group.new('StatusLineTermNC', colors.gray, colors.black, nil)
 Group.new('StorageClass', colors.red, nil, nil)
 Group.new('String', colors.yellow, nil, nil)
-Group.new('Structure', colors.blue, nil, nil)
+Group.new('Structure', colors.gray2, nil, nil)
 Group.new('Substitute', colors.gray, colors.orange2, nil)
 
 --T
@@ -153,7 +153,7 @@ Group.new('TermCursor', colors.white2, colors.powder_blue, nil)
 Group.new('TermCursorNC', colors.white2, colors.powder_blue, nil)
 Group.new('Title', colors.gray, nil, nil)
 Group.new('Todo', colors.yellow, nil, styles.bold)
-Group.new('Type', colors.sky, nil, styles.italic)
+Group.new('Type', colors.sky, nil, nil)
 Group.new('Typedef', colors.blue2, nil, styles.italic)
 
 --V
