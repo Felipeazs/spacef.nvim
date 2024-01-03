@@ -23,4 +23,8 @@ Group.new('ColorColumn', colors.black, nil, nil)
 Group.new('Comment', colors.gray, nil, styles.italic)
 
 --S
-Group.new('String', colors.green, nil, styles.italic)
+Group.new('String', colors.green, nil, nil)
+
+if colors then
+    print('colors')
+end
