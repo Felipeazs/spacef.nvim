@@ -78,7 +78,7 @@ Group.new('Function', colors.green, nil, nil)
 --I
 Group.new('Identifier', colors.white, nil, nil)
 Group.new('Ignore', colors.gray2, nil, nil)
-Group.new('IncSearch', colors.background, colors.orange2, nil)
+Group.new('IncSearch', colors.orange, colors.background, nil)
 Group.new('Include', colors.blue, nil, styles.italic)
 
 --K
