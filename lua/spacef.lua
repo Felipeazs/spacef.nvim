@@ -22,3 +22,5 @@ Color.new('aqua', '#56b5c2')
 Color.new('silver', '#9da5b4')
 Color.new('lightgray', '#9da5b4')
 Color.new('white', '#f8f8f0')
+
+Group.new('String', colors.white, nil, styles.italic)
