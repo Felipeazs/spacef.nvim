@@ -72,7 +72,7 @@ Group.new('Exception', colors.white, nil, nil)
 Group.new('Float', colors.orange2, nil, nil)
 Group.new('FloatBorder', colors.gray, nil, nil)
 Group.new('FoldColumn', colors.gray, nil, nil)
-Group.new('Folded', colors.white, colors.gray, nil)
+Group.new('Folded', colors.white, colors.black, nil)
 Group.new('Function', colors.green, nil, nil)
 
 --I
@@ -332,8 +332,8 @@ Group.new("TreesitterContext", colors.white, colors.dark_blue3, nil)
 
 --ufo
 Group.new('UfoFoldedFg', colors.white, nil, nil)
-Group.new('UfoFoldedBg', nil, colors.background, nil)
-Group.new('UfoPreviewSbar', nil, colors.blue, nil)
+Group.new('UfoFoldedBg', nil, colors.black, nil)
+Group.new('UfoPreviewSbar', nil, colors.gray, nil)
 Group.new('UfoPreviewThumb', nil, colors.black, nil)
 Group.new('UfoPreviewWinBar', nil, colors.background, nil)
 Group.new('UfoPreviewCursorLine', nil, colors.dark_blue, styles.bold)
