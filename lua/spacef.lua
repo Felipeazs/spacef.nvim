@@ -20,6 +20,7 @@ Group.new('Boolean', colors.orange, nil, styles.italic)
 --C
 Group.new('Character', colors.yellow)
 Group.new('ColorColumn', colors.black)
+Group.new('Comment', colors.dark_gray)
 
 --S
 Group.new('String', colors.green, nil, styles.italic)
