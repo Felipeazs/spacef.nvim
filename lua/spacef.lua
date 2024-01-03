@@ -11,16 +11,16 @@ Color.new('green', '#a3be8c')
 Color.new('yellow', '#E9D26C')
 Color.new('blue', '#7EB7E6')
 Color.new('orange', '#E39A65')
-Color.new('dark_gray', '#4D5264')
+Color.new('gray', '#4D5264')
 
 --Editor Groups
 --B
-Group.new('Boolean', colors.orange, nil, styles.italic)
+Group.new('Boolean', colors.orange, nil, styles.bold + styles.italic)
 
 --C
-Group.new('Character', colors.yellow)
-Group.new('ColorColumn', colors.black)
-Group.new('Comment', colors.dark_gray)
+Group.new('Character', colors.yellow, nil, nil)
+Group.new('ColorColumn', colors.black, nil, nil)
+Group.new('Comment', colors.gray, nil, styles.italic)
 
 --S
 Group.new('String', colors.green, nil, styles.italic)
