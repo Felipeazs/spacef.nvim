@@ -333,10 +333,10 @@ Group.new("TreesitterContext", colors.white, colors.dark_blue3, nil)
 --ufo
 Group.new('UfoFoldedFg', colors.white, nil, nil)
 Group.new('UfoFoldedBg', nil, colors.background, nil)
-Group.new('UfoPreviewSbar', nil, colors.gray, nil)
+Group.new('UfoPreviewSbar', nil, colors.blue, nil)
 Group.new('UfoPreviewThumb', nil, colors.black, nil)
 Group.new('UfoPreviewWinBar', nil, colors.background, nil)
-Group.new('UfoPreviewCursorLine', nil, colors.dark_blue3, styles.bold)
+Group.new('UfoPreviewCursorLine', nil, colors.dark_blue, styles.bold)
 Group.new('UfoFoldedEllipsis', colors.gray, nil, styles.italic)
 Group.new('UfoCursorFoldedLine', nil, colors.black, nil)
 
