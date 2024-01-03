@@ -76,10 +76,10 @@ Group.new('Folded', colors.white, colors.black, nil)
 Group.new('Function', colors.green, nil, nil)
 
 --I
-Group.new('Identifier', colors.white, nil, nil)
+Group.new('Identifier', colors.blue, nil, nil)
 Group.new('Ignore', colors.gray2, nil, nil)
 Group.new('IncSearch', colors.orange, colors.background, nil)
-Group.new('Include', colors.blue, nil, styles.italic)
+Group.new('Include', colors.red, nil, styles.italic)
 
 --K
 Group.new('Keyword', colors.red, nil, styles.italic)
@@ -153,7 +153,7 @@ Group.new('TermCursor', colors.white, colors.powder_blue, nil)
 Group.new('TermCursorNC', colors.white, colors.powder_blue, nil)
 Group.new('Title', colors.gray, nil, nil)
 Group.new('Todo', colors.yellow, nil, styles.bold)
-Group.new('Type', colors.blue, nil, styles.italic)
+Group.new('Type', colors.sky, nil, styles.italic)
 Group.new('Typedef', colors.blue2, nil, styles.italic)
 
 --V
