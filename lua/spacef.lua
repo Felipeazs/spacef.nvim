@@ -256,7 +256,10 @@ Group.new('GitSignsChange', colors.blue3, nil, nil)
 Group.new('GitSignsDelete', colors.red, nil, nil)
 
 --illuminate
---
+Group.new("IllumiatedWordText", nil, nil, styles.underline)
+Group.new("IllumiatedWordRead", nil, nil, styles.underline)
+Group.new("IllumiatedWordWrite", nil, nil, styles.underline)
+
 --obsidian
 Group.new("ObsidianTodo", colors.coral, nil, styles.bold)
 Group.new("ObsidianDone", colors.sky, nil, styles.bold)
