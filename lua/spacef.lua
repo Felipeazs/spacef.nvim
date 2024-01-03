@@ -12,6 +12,7 @@ Color.new('yellow', '#E9D26C')
 Color.new('blue', '#7EB7E6')
 Color.new('orange', '#E39A65')
 Color.new('gray', '#4D5264')
+Color.new('indigo', '#1E2026')
 
 --Editor Groups
 --B
@@ -21,6 +22,14 @@ Group.new('Boolean', colors.orange, nil, styles.bold + styles.italic)
 Group.new('Character', colors.yellow, nil, nil)
 Group.new('ColorColumn', colors.black, nil, nil)
 Group.new('Comment', colors.gray, nil, styles.italic)
+Group.new('Conceal', colors.foreground, nil, nil)
+Group.new('Conditional', colors.red, nil, nil)
+Group.new('Constant', colors.pink, nil, nil)
+Group.new('Cursor', colors.yellow, colors.background, nil)
+Group.new('CursorColumn', nil, nil, nil)
+-- Group.new('CursorIM', nil, nil, nil)
+Group.new('CursorLine', nil, colors.black, nil)
+Group.new('CursorLineNr', colors.white, colors.indigo, styles.bold)
 
 --S
 Group.new('String', colors.green, nil, nil)
