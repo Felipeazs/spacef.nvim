@@ -327,6 +327,12 @@ Group.new('TSVariable', colors.white, nil, nil)
 Group.new('TSVariableBuiltin', colors.pink, nil, styles.italic)
 Group.new('TSDefine', colors.red, nil, nil)
 
+--Telescope
+Group.new('TelescopeBorder', colors.white, nil, nil)
+Group.new('TelescopeMatching', colors.yellow, nil, nil)
+Group.new('TelescopePromptPrefix', colors.green, nil, nil)
+Group.new('TelescopeSelection', colors.gray, colors.black, nil)
+
 --Treesitter contxet
 Group.new("TreesitterContext", colors.white, colors.dark_blue3, nil)
 
