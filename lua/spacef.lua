@@ -11,8 +11,9 @@ Color.new('green', '#a3be8c')
 Color.new('yellow', '#E9D26C')
 Color.new('blue', '#7EB7E6')
 Color.new('orange', '#E39A65')
+Color.new('dark_gray', '#4D5264')
 
---Groups
+--Editor Groups
 --B
 Group.new('Boolean', colors.orange, nil, styles.italic)
 
@@ -20,5 +21,5 @@ Group.new('Boolean', colors.orange, nil, styles.italic)
 Group.new('Character', colors.yellow)
 Group.new('ColorColumn', colors.black)
 
-
+--S
 Group.new('String', colors.green, nil, styles.italic)
