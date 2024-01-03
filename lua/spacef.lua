@@ -332,8 +332,8 @@ Group.new('TSDefine', colors.red, nil, nil)
 
 --Telescope
 Group.new('TelescopeBorder', colors.white2, nil, nil)
-Group.new('TelescopeMatching', colors.yellow, nil, nil)
-Group.new('TelescopePromptPrefix', colors.coral, nil, nil)
+Group.new('TelescopeMatching', colors.green2, nil, nil)
+Group.new('TelescopePromptPrefix', colors.gray, nil, nil)
 Group.new('TelescopeSelection', colors.gray, colors.black, nil)
 
 --Treesitter contxet
