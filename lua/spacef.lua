@@ -31,6 +31,13 @@ Group.new('CursorColumn', nil, nil, nil)
 Group.new('CursorLine', nil, colors.black, nil)
 Group.new('CursorLineNr', colors.white, colors.indigo, styles.bold)
 
+--F
+Group.new('Float', colors.orange, nil, nil)
+Group.new('FloatBorder', colors.gray, nil, nil)
+Group.new('FoldColumn', colors.gray, nil, nil)
+Group.new('Folded', colors.white, colors.gray, nil)
+Group.new('Function', colors.green, nil, nil)
+
 --K
 Group.new('Keyword', colors.red, nil, styles.italic)
 
