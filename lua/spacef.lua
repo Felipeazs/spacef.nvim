@@ -99,7 +99,7 @@ Group.new('MsgSeparator', colors.white, colors.background, nil)
 --N
 Group.new('NonText', colors.gray, nil, nil)
 Group.new('Normal', colors.white, nil, nil)
-Group.new('NormalFloat', nil, colors.dark_blue, nil)
+Group.new('NormalFloat', nil, nil, nil)
 Group.new('NormalNC', colors.white, nil, nil)
 Group.new('Number', colors.orange2, nil, nil)
 
@@ -229,6 +229,9 @@ Group.new('DiffviewVertSplit', nil, colors.background, nil)
 Group.new('GitSignsAdd', colors.green, nil, nil)
 Group.new('GitSignsChange', colors.blue3, nil, nil)
 Group.new('GitSignsDelete', colors.red, nil, nil)
+
+--Treesitter
+Group.new("TreesitterContext", colors.white, colors.dark_blue3, nil)
 
 --which key
 Group.new("WhichKey", colors.pink, nil, nil)
