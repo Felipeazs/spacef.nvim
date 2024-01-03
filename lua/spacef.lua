@@ -7,6 +7,7 @@ Color.new('white', '#DFE0EA')
 Color.new('white2', '#CFD0D7')
 Color.new('red', '#E85A84')
 Color.new('red2', '#D95555')
+Color.new('red3', '#FF5370')
 Color.new('pink', '#D895C7')
 Color.new('green', '#a3be8c')
 Color.new('green2', '#8CD881')
@@ -28,6 +29,8 @@ Color.new('gray', '#4D5264')
 Color.new('gray2', '#515669')
 Color.new('slate_gray', '#5E697E')
 Color.new('indigo', '#1E2026')
+Color.new('coral', '#f78c6c')
+Color.new('brown', '#75662E')
 
 --Editor Groups
 --B
@@ -231,6 +234,16 @@ Group.new('GitSignsChange', colors.blue3, nil, nil)
 Group.new('GitSignsDelete', colors.red, nil, nil)
 
 --illuminate
+--
+--obsidian
+Group.new("ObsidianTodo", colors.coral, nil, styles.bold)
+Group.new("ObsidianDone", colors.sky, nil, styles.bold)
+Group.new("ObsidianRightArrow", colors.coral, nil, styles.bold)
+Group.new("ObsidianTilde", colors.red3, nil, styles.bold)
+Group.new("ObsidianRefText", colors.blue, nil, styles.underline)
+Group.new("ObsidianExtLinkIcon", colors.blue, nil, nil)
+Group.new("ObsidianTag", colors.sky, nil, styles.italic)
+Group.new("ObsidianHighlightText", nil, colors.brown, nil)
 
 --Treesitter
 Group.new('TSAnnotation', colors.yellow, nil, nil)
