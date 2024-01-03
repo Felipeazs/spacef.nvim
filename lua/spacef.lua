@@ -141,7 +141,7 @@ Group.new('StatusLineTerm', colors.green, colors.black, nil)
 Group.new('StatusLineTermNC', colors.gray, colors.black, nil)
 Group.new('StorageClass', colors.red, nil, nil)
 Group.new('String', colors.yellow, nil, nil)
-Group.new('Structure', colors.gray, nil, styles.bold)
+Group.new('Structure', colors.pink, nil, styles.bold)
 Group.new('Substitute', colors.gray, colors.orange2, nil)
 
 --T
