@@ -42,7 +42,11 @@ Group.new('NormalNC', colors.white, nil, nil)
 Group.new('Number', colors.orange, nil, nil)
 
 --S
+Group.new('SignColumn', nil, nil, nil)
 Group.new('String', colors.green, nil, nil)
+
+--V
+Group.new('Variable', colors.white, nil, nil)
 
 if colors then
     print('colors')
