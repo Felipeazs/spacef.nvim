@@ -31,6 +31,16 @@ Group.new('CursorColumn', nil, nil, nil)
 Group.new('CursorLine', nil, colors.black, nil)
 Group.new('CursorLineNr', colors.white, colors.indigo, styles.bold)
 
+--K
+Group.new('Keyword', colors.red, nil, styles.italic)
+
+--N
+Group.new('NonText', colors.gray, nil, nil)
+Group.new('Normal', colors.foreground, nil, nil)
+Group.new('NormalFloat', nil, colors.background, nil)
+Group.new('NormalNC', colors.white, nil, nil)
+Group.new('Number', colors.orange, nil, nil)
+
 --S
 Group.new('String', colors.green, nil, nil)
 
