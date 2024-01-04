@@ -1,3 +1,3 @@
-## Custom Neovim Colorscheme
+# Custom Neovim Color scheme
 
 Made with Colorbuddy
