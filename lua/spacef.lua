@@ -126,7 +126,7 @@ Group.new("Repeat", colors.red, nil, nil)
 --S
 Group.new("Search", colors.blue2, colors.orange, nil)
 Group.new("SignColumn", nil, nil, nil)
-Group.new("Special", colors.gray, nil, nil) --null, tsx compoenets values
+Group.new("Special", colors.gray2:saturate(0.1), nil, nil) --null, tsx compoenets values
 Group.new("SpecialChar", colors.yellow, nil, nil)
 Group.new("SpecialComment", colors.pink, nil, nil)
 Group.new("SpecialKey", colors.gray, nil, styles.bold)
