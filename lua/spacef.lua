@@ -38,6 +38,7 @@ Group.new("Boolean", colors.orange, nil, styles.bold + styles.italic)
 
 --C
 Group.new("Character", colors.yellow, nil, nil)
+Group.new("CodeBlock", colors.powder_blue, colors.black, nil) --markdown code blocks
 Group.new("ColorColumn", nil, colors.black, nil)
 Group.new("Comment", colors.gray, nil, styles.italic)
 Group.new("Conceal", nil, nil, nil)
@@ -50,6 +51,7 @@ Group.new("CursorLine", nil, colors.black, nil)
 Group.new("CursorLineNr", colors.white2, colors.indigo, styles.bold)
 
 --D
+Group.new("Dash", colors.white2, nil, nil) -- markdown dash line
 Group.new("Debug", colors.white2, nil, nil)
 Group.new("Define", colors.blue, nil, nil)
 Group.new("Delimiter", colors.gray2, nil, nil)
@@ -65,7 +67,7 @@ Group.new("DiffFile", colors.pink, nil, nil)
 --E
 -- Group.new("EndOfBuffer", nil, nil, nil)
 Group.new("Error", colors.red, colors.background, styles.bold)
-Group.new("ErrorMsg", colors.gray, colors.red2, styles.bold)
+Group.new("ErrorMsg", colors.black, colors.red2, styles.bold)
 Group.new("Exception", colors.white2, nil, nil)
 
 --F
@@ -102,7 +104,7 @@ Group.new("MsgSeparator", colors.white2, colors.background, nil)
 
 --N
 Group.new("None", colors.white, nil, nil)
-Group.new("NonText", colors.gray, nil, nil)
+Group.new("NonText", colors.pink, nil, nil)
 Group.new("Normal", colors.white2, nil, nil)
 Group.new("NormalFloat", nil, nil, nil)
 Group.new("NormalNC", colors.white2, nil, nil)
@@ -120,6 +122,7 @@ Group.new("PreProc", colors.blue, nil, nil)
 --Q
 Group.new("Question", colors.green, nil, nil)
 Group.new("QuickFixLine", colors.orange2, nil, nil)
+Group.new("Quote", colors.orange2, nil, nil) --markdown quotes
 
 --R
 Group.new("Repeat", colors.red, nil, nil)
@@ -215,7 +218,6 @@ Group.new("CmpItemKindText", colors.sky, nil, nil)
 Group.new("CmpItemKindUnit", colors.silver, nil, nil)
 Group.new("CmpItemKindVariable", colors.sky, nil, nil)
 Group.new("CmpItemMenu", colors.pink, nil, nil)
-Group.new("CodeBlock", colors.powder_blue, colors.black, nil)
 
 --debug
 Group.new("debugBreakpoint", colors.red, nil, nil)
@@ -258,13 +260,13 @@ Group.new("GitSignsAdd", colors.green, nil, nil)
 Group.new("GitSignsChange", colors.blue3, nil, nil)
 Group.new("GitSignsDelete", colors.red, nil, nil)
 
---Headlines
-Group.new('Headline1', colors.yellow, nil, styles.bold)
-Group.new('Headline2', colors.yellow:saturate(-0.2), nil, styles.bold)
-Group.new('Headline3', colors.yellow:saturate(-0.4), nil, styles.bold)
-Group.new('Headline4', colors.yellow:saturate(-0.6), nil, styles.bold)
-Group.new('Headline5', colors.yellow:saturate(-0.8), nil, styles.bold)
-Group.new('Headline6', colors.yellow:saturate(-1.0), nil, styles.bold)
+--headlines
+Group.new('Headline1', colors.yellow, nil, styles.bold)                --markdown
+Group.new('Headline2', colors.yellow:saturate(-0.2), nil, styles.bold) --markdown
+Group.new('Headline3', colors.yellow:saturate(-0.4), nil, styles.bold) --markdown
+Group.new('Headline4', colors.yellow:saturate(-0.6), nil, styles.bold) --markdown
+Group.new('Headline5', colors.yellow:saturate(-0.8), nil, styles.bold) --markdown
+Group.new('Headline6', colors.yellow:saturate(-1.0), nil, styles.bold) --markdown
 
 --illuminate
 Group.new("IllumiatedWord", nil, colors.white, styles.underline)
@@ -282,6 +284,12 @@ Group.new("ObsidianRefText", colors.blue, nil, styles.underline)
 Group.new("ObsidianExtLinkIcon", colors.blue, nil, nil)
 Group.new("ObsidianTag", colors.sky, nil, styles.italic)
 Group.new("ObsidianHighlightText", nil, colors.brown, nil)
+
+--Telescope
+Group.new("TelescopeBorder", colors.white2, nil, nil)
+Group.new("TelescopeMatching", colors.green2, nil, nil)
+Group.new("TelescopePromptPrefix", colors.orange, nil, nil)
+Group.new("TelescopeSelection", colors.orange, colors.black, nil)
 
 --Treesitter
 Group.new("TSAnnotation", colors.yellow, nil, nil)
@@ -342,12 +350,6 @@ Group.new("TSUnderline", nil, nil, styles.underline)
 Group.new("TSVariable", colors.white2, nil, nil)
 Group.new("TSVariableBuiltin", colors.pink, nil, styles.italic)
 Group.new("TSDefine", colors.red, nil, nil)
-
---Telescope
-Group.new("TelescopeBorder", colors.white2, nil, nil)
-Group.new("TelescopeMatching", colors.green2, nil, nil)
-Group.new("TelescopePromptPrefix", colors.orange, nil, nil)
-Group.new("TelescopeSelection", colors.orange, colors.black, nil)
 
 --Treesitter contxet
 Group.new("TreesitterContext", colors.white2, colors.dark_blue3, nil)
