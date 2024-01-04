@@ -80,7 +80,7 @@ Group.new("Identifier", colors.silver:saturate(0.20), nil, nil)
 Group.new("Ignore", colors.gray2, nil, nil)
 Group.new("IncSearch", colors.orange, colors.background, nil)
 Group.new("Include", colors.red, nil, styles.italic)
-Group.new("@import", colors.silver:saturate(0.3), nil, styles.italic)
+Group.new("@import", colors.silver:saturate(0.3), nil, nil)
 
 --K
 Group.new("Keyword", colors.red, nil, styles.italic)
@@ -155,7 +155,7 @@ Group.new("TermCursor", colors.white2, colors.powder_blue, nil)
 Group.new("TermCursorNC", colors.white2, colors.powder_blue, nil)
 Group.new("Title", colors.gray, nil, nil)
 Group.new("Todo", colors.yellow, nil, styles.bold)
-Group.new("Type", colors.silver:saturate(0.45), nil, nil)
+Group.new("Type", colors.blue2, nil, nil)
 Group.new("Typedef", colors.blue2, nil, styles.italic)
 
 --V
