@@ -257,7 +257,17 @@ Group.new("GitSignsAdd", colors.green, nil, nil)
 Group.new("GitSignsChange", colors.blue3, nil, nil)
 Group.new("GitSignsDelete", colors.red, nil, nil)
 
+--Headlines
+Group.new('Headline1', colors.yellow, nil, styles.bold)
+Group.new('Headline2', colors.yellow, nil, styles.bold)
+Group.new('Headline3', colors.yellow, nil, styles.bold)
+Group.new('Headline4', colors.yellow, nil, styles.bold)
+Group.new('Headline5', colors.yellow, nil, styles.bold)
+Group.new('Headline6', colors.yellow, nil, styles.bold)
+
 --illuminate
+Group.new("IllumiatedWord", nil, colors.white, styles.underline)
+Group.new("IllumiatedCurWord", nil, colors.white, styles.underline)
 Group.new("IllumiatedWordText", nil, nil, styles.underline)
 Group.new("IllumiatedWordRead", nil, nil, styles.underline)
 Group.new("IllumiatedWordWrite", nil, nil, styles.underline)
