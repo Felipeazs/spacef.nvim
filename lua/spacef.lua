@@ -215,6 +215,7 @@ Group.new("CmpItemKindText", colors.sky, nil, nil)
 Group.new("CmpItemKindUnit", colors.silver, nil, nil)
 Group.new("CmpItemKindVariable", colors.sky, nil, nil)
 Group.new("CmpItemMenu", colors.pink, nil, nil)
+Group.new("CodeBlock", colors.powder_blue, colors.black, nil)
 
 --debug
 Group.new("debugBreakpoint", colors.red, nil, nil)
