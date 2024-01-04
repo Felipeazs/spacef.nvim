@@ -73,7 +73,7 @@ Group.new("Float", colors.orange2, nil, nil)
 Group.new("FloatBorder", colors.gray, nil, nil)
 Group.new("FoldColumn", colors.gray, nil, nil)
 Group.new("Folded", colors.white2, colors.black, nil)
-Group.new("Function", colors.green, nil, styles.bold)
+Group.new("Function", colors.blue3, nil, styles.bold)
 
 --I
 Group.new("Identifier", colors.silver:saturate(0.20), nil, nil)
