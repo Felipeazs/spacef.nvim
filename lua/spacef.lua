@@ -76,7 +76,7 @@ Group.new('Folded', colors.white2, colors.black, nil)
 Group.new('Function', colors.green, nil, nil)
 
 --I
-Group.new('Identifier', colors.silver:saturate(0.38), nil, nil)
+Group.new('Identifier', colors.silver:saturate(0.20), nil, nil)
 Group.new('Ignore', colors.gray2, nil, nil)
 Group.new('IncSearch', colors.orange, colors.background, nil)
 Group.new('Include', colors.red, nil, styles.italic)
