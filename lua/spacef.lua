@@ -155,7 +155,7 @@ Group.new("TermCursor", colors.white2, colors.powder_blue, nil)
 Group.new("TermCursorNC", colors.white2, colors.powder_blue, nil)
 Group.new("Title", colors.gray, nil, nil)
 Group.new("Todo", colors.yellow, nil, styles.bold)
-Group.new("Type", colors.blue2, nil, nil)
+Group.new("Type", colors.blue2:saturate(0.3), nil, nil)
 Group.new("Typedef", colors.blue2, nil, styles.italic)
 
 --V
