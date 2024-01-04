@@ -259,11 +259,11 @@ Group.new("GitSignsDelete", colors.red, nil, nil)
 
 --Headlines
 Group.new('Headline1', colors.yellow, nil, styles.bold)
-Group.new('Headline2', colors.yellow:saturate(0.1), nil, styles.bold)
-Group.new('Headline3', colors.yellow:saturate(0.2), nil, styles.bold)
-Group.new('Headline4', colors.yellow:saturate(0.3), nil, styles.bold)
-Group.new('Headline5', colors.yellow:saturate(0.4), nil, styles.bold)
-Group.new('Headline6', colors.yellow:saturate(0.5), nil, styles.bold)
+Group.new('Headline2', colors.yellow:saturate(-0.2), nil, styles.bold)
+Group.new('Headline3', colors.yellow:saturate(-0.4), nil, styles.bold)
+Group.new('Headline4', colors.yellow:saturate(-0.6), nil, styles.bold)
+Group.new('Headline5', colors.yellow:saturate(-0.8), nil, styles.bold)
+Group.new('Headline6', colors.yellow:saturate(-1.0), nil, styles.bold)
 
 --illuminate
 Group.new("IllumiatedWord", nil, colors.white, styles.underline)
