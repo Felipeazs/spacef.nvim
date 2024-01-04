@@ -80,6 +80,7 @@ Group.new("Identifier", colors.silver:saturate(0.20), nil, nil)
 Group.new("Ignore", colors.gray2, nil, nil)
 Group.new("IncSearch", colors.orange, colors.background, nil)
 Group.new("Include", colors.red, nil, styles.italic)
+Group.new("Import", colors.silver:saturate(0.3), nil, styles.italic)
 
 --K
 Group.new("Keyword", colors.red, nil, styles.italic)
