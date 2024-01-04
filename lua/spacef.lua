@@ -142,7 +142,7 @@ Group.new("StatusLineSeparator", nil, nil, nil)
 Group.new("StatusLineTerm", colors.green, colors.black, nil)
 Group.new("StatusLineTermNC", colors.gray, colors.black, nil)
 Group.new("StorageClass", colors.red, nil, nil)
-Group.new("String", colors.yellow:saturate(0.2), nil, nil)
+Group.new("String", colors.yellow:saturate(-0.2), nil, nil)
 Group.new("Structure", colors.pink, nil, styles.bold)
 Group.new("Substitute", colors.gray, colors.orange2, nil)
 
