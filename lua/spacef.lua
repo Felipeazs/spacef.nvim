@@ -288,8 +288,8 @@ Group.new("ObsidianHighlightText", nil, colors.brown, nil)
 --Telescope
 Group.new("TelescopeBorder", colors.white2, nil, nil)
 Group.new("TelescopeMatching", colors.green2, nil, nil)
-Group.new("TelescopePromptPrefix", colors.orange, nil, nil)
-Group.new("TelescopeSelection", colors.orange, colors.black, nil)
+Group.new("statuscolPromptPrefix", colors.green, nil, nil)
+Group.new("TelescopeSelection", colors.green, colors.black, styles.bold)
 
 --Treesitter
 Group.new("TSAnnotation", colors.yellow, nil, nil)
