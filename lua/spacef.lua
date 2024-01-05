@@ -352,7 +352,7 @@ Group.new("TSVariableBuiltin", colors.pink, nil, styles.italic)
 Group.new("TSDefine", colors.red, nil, nil)
 
 --Treesitter contxet
-Group.new("TreesitterContext", colors.white2, colors.dark_blue3, nil)
+Group.new("TreesitterContext", nil, colors.dark_blue3, nil)
 
 --ufo
 Group.new("UfoFoldedFg", colors.white2, nil, nil)
