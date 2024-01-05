@@ -370,7 +370,3 @@ Group.new("WhichKeySeperator", colors.red2, nil, nil)
 Group.new("WhichKeyGroup", colors.pink, nil, nil)
 Group.new("WhichKeyDesc", colors.white2, nil, nil)
 Group.new("WhichKeyFloat", colors.dark_blue, nil)
-
-if colors then
-    print("colors")
-end
