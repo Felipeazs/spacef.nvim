@@ -354,7 +354,7 @@ Group.new("TSDefine", colors.red, nil, nil)
 --Treesitter contxet
 Group.new("TreesitterContext", nil, colors.black, nil)
 Group.new("TreesitterContextSeparator", colors.orange, nil, nil)
-Group.new("TreesitterContextBottom", colors.orange, nil, nil)
+Group.new("TreesitterContextBottom", colors.pink, nil, nil)
 
 --ufo
 Group.new("UfoFoldedFg", colors.white2, nil, nil)
