@@ -75,7 +75,7 @@ Group.new("Float", colors.orange2, nil, nil)
 Group.new("FloatBorder", colors.gray, nil, nil)
 Group.new("FoldColumn", colors.gray, nil, nil)
 Group.new("Folded", colors.white2, colors.black, nil)
-Group.new("Function", colors.blue3, nil, styles.bold)
+Group.new("Function", colors.blue3, nil, nil)
 
 --I
 Group.new("Identifier", colors.silver:saturate(0.20), nil, nil)
@@ -130,7 +130,7 @@ Group.new("Repeat", colors.red, nil, nil)
 --S
 Group.new("Search", colors.blue2, colors.orange, nil)
 Group.new("SignColumn", nil, nil, nil)
-Group.new("Special", colors.blue3, nil, styles.bold) --null, tsx compoenets values
+Group.new("Special", colors.blue3, nil, nil) --null, tsx compoenets values
 Group.new("SpecialChar", colors.yellow, nil, nil)
 Group.new("SpecialComment", colors.pink, nil, nil)
 Group.new("SpecialKey", colors.gray, nil, styles.bold)
