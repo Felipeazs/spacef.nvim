@@ -73,6 +73,7 @@ Group.new("ErrorMsg", colors.black, colors.red2, styles.bold)
 Group.new("Exception", colors.white2, nil, nil)
 
 --F
+Group.new("@field.lua", colors.silver:saturate(0.40), nil, nil)
 Group.new("Float", colors.orange2, nil, nil)
 Group.new("FloatBorder", colors.gray, nil, nil)
 Group.new("FoldColumn", colors.gray, nil, nil)
