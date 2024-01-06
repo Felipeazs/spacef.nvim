@@ -92,8 +92,6 @@ Group.new("Keyword", colors.red, nil, styles.italic)
 --L
 Group.new("Label", colors.red, nil, nil)
 Group.new("LineNr", colors.blue2, nil, nil)
-Group.new("@lsp.type.property.lua", colors.silver:saturate(-0.05), nil, nil)
-Group.new("@lsp.type.property.typescriptreact", colors.silver:saturate(-0.05), nil, nil)
 
 --M
 Group.new("Macro", colors.red, nil, styles.italic)
