@@ -34,7 +34,7 @@ Color.new("brown", "#75662E")
 
 --Editor Groups
 --B
-Group.new("Boolean", colors.orange, nil, styles.bold + styles.italic)
+Group.new("Boolean", colors.orange, nil, styles.italic)
 
 --C
 Group.new("Character", colors.yellow, nil, nil)
@@ -77,7 +77,7 @@ Group.new("Float", colors.orange2, nil, nil)
 Group.new("FloatBorder", colors.gray, nil, nil)
 Group.new("FoldColumn", colors.gray, nil, nil)
 Group.new("Folded", colors.white2, colors.black, nil)
-Group.new("Function", colors.blue3, nil, styles.bold)
+Group.new("Function", colors.blue3, nil, nil)
 
 --I
 Group.new("Identifier", colors.silver:saturate(0.20), nil, nil)
