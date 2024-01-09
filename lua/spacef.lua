@@ -42,7 +42,7 @@ Group.new("CodeBlock", colors.powder_blue, colors.black, nil) --markdown code bl
 Group.new("ColorColumn", nil, colors.black, nil)
 Group.new("Comment", colors.gray, nil, styles.italic)
 Group.new("Conceal", nil, nil, nil)
-Group.new("Conditional", colors.orange, nil, styles.italic)
+Group.new("Conditional", colors.red, nil, styles.italic)
 Group.new("Constant", colors.orange, nil, nil)
 Group.new("@constructor.lua", colors.gray, nil, nil)
 Group.new("@constant.builtin.lua", colors.gray, nil, nil)
