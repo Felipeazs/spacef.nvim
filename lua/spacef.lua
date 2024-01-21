@@ -271,11 +271,11 @@ Group.new('Headline5', colors.yellow:saturate(-0.8), nil, styles.bold) --markdow
 Group.new('Headline6', colors.yellow:saturate(-1.0), nil, styles.bold) --markdown
 
 --illuminate
-Group.new("IllumiatedWord", nil, colors.white, styles.underline)
-Group.new("IllumiatedCurWord", nil, colors.white, styles.underline)
-Group.new("IllumiatedWordText", nil, colors.gray2, nil)
-Group.new("IllumiatedWordRead", nil, colors.gray2, nil)
-Group.new("IllumiatedWordWrite", nil, colors.gray2, nil)
+Group.new("IlluminatedWord", nil, nil, styles.underline)
+Group.new("IlluminatedCurWord", nil, nil, styles.underline)
+Group.new("IlluminatedWordText", nil, nil, styles.underline)
+Group.new("IlluminatedWordRead", nil, nil, styles.underline)
+Group.new("IlluminatedWordWrite", nil, nil, styles.underline)
 
 --obsidian
 Group.new("ObsidianTodo", colors.coral, nil, styles.bold)
