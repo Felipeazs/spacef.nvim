@@ -273,9 +273,9 @@ Group.new('Headline6', colors.yellow:saturate(-1.0), nil, styles.bold) --markdow
 --illuminate
 Group.new("IllumiatedWord", nil, colors.white, styles.underline)
 Group.new("IllumiatedCurWord", nil, colors.white, styles.underline)
-Group.new("IllumiatedWordText", nil, nil, styles.underline)
-Group.new("IllumiatedWordRead", nil, nil, styles.underline)
-Group.new("IllumiatedWordWrite", nil, nil, styles.underline)
+Group.new("IllumiatedWordText", nil, colors.gray2, nil)
+Group.new("IllumiatedWordRead", nil, colors.gray2, nil)
+Group.new("IllumiatedWordWrite", nil, colors.gray2, nil)
 
 --obsidian
 Group.new("ObsidianTodo", colors.coral, nil, styles.bold)
