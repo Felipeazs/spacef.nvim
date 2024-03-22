@@ -1,7 +1,5 @@
 local colorbuddy = require("colorbuddy")
 
-colorbuddy.colorscheme("spacef")
-
 local Color = colorbuddy.Color
 local colors = colorbuddy.colors
 local Group = colorbuddy.Group
