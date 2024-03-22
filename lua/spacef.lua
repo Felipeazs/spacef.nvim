@@ -1,4 +1,11 @@
-local Color, colors, Group, _, styles = require("colorbuddy").setup()
+local colorbuddy = require("colorbuddy")
+
+colorbuddy.colorscheme("Spacef")
+
+local Color = colorbuddy.Color
+local colors = colorbuddy.colors
+local Group = colorbuddy.Group
+local styles = colorbuddy.styles
 
 --Colors
 Color.new("background", "#191B20")
