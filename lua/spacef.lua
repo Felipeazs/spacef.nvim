@@ -1,6 +1,6 @@
 local colorbuddy = require("colorbuddy")
 
-colorbuddy.colorscheme("Spacef")
+colorbuddy.colorscheme("spacef")
 
 local Color = colorbuddy.Color
 local colors = colorbuddy.colors
