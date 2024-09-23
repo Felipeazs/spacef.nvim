@@ -1,3 +1,5 @@
+require("colorbuddy").colorscheme("spacef")
+
 local colorbuddy = require("colorbuddy")
 
 local Color = colorbuddy.Color
