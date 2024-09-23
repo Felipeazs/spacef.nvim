@@ -45,7 +45,7 @@ Group.new("Boolean", colors.orange, nil, styles.italic)
 
 --C
 Group.new("Character", colors.yellow, nil, nil)
-Group.new("CodeBlock", colors.powder_blue, colors.black, nil) --markdown code blocks
+Group.new("CodeBlock", colors.blue3, colors.black, nil) --markdown code blocks
 Group.new("ColorColumn", nil, colors.black, nil)
 Group.new("Comment", colors.gray, nil, styles.italic)
 Group.new("Conceal", nil, nil, nil)
@@ -118,6 +118,10 @@ Group.new("Normal", colors.white2, nil, nil)
 Group.new("NormalFloat", nil, nil, nil)
 Group.new("NormalNC", colors.white2, nil, nil)
 Group.new("Number", colors.orange2, nil, nil)
+Group.new("NoiceCmdLine", colors.white2, nil, nil)
+Group.new("NoiceCmdLinePopup", colors.white2, nil, nil)
+Group.new("NoiceCmdLinePopupTitle", colors.white2, nil, nil)
+Group.new("NoiceCmdLinePopupBorder", colors.white2, nil, nil)
 
 --O
 Group.new("Operator", colors.white2, nil, nil)
@@ -137,12 +141,12 @@ Group.new("Quote", colors.orange2, nil, nil) --markdown quotes
 Group.new("Repeat", colors.red, nil, nil)
 
 --S
-Group.new("Search", colors.blue2, colors.orange, nil)
+Group.new("Search", colors.gray, nil, nil)
 Group.new("SignColumn", nil, nil, nil)
 Group.new("Special", colors.blue3, nil, nil) --null, tsx compoenets values
 Group.new("SpecialChar", colors.yellow, nil, nil)
 Group.new("SpecialComment", colors.pink, nil, nil)
-Group.new("SpecialKey", colors.gray, nil, styles.bold)
+Group.new("SpecialKey", colors.gray, nil, nil)
 Group.new("SpellBad", colors.red, nil, styles.underline)
 Group.new("SpellCap", colors.orange2, nil, styles.underline)
 Group.new("SpellLocal", colors.green, nil, styles.underline)
@@ -173,8 +177,9 @@ Group.new("Typedef", colors.blue2, nil, styles.italic)
 --V
 Group.new("Variable", colors.white2, nil, nil)
 Group.new("VertSplit", colors.dark_blue2, nil, nil)
-Group.new("Visual", nil, colors.dark_blue3, styles.bold) --selection
-Group.new("VisualNOS", colors.dark_blue4, colors.slate_gray, nil)
+Group.new("Visual", nil, colors.black, nil) --selection
+Group.new("VisualSpecial", colors.slate_gray, colors.black, nil)
+Group.new("VisualNOS", colors.dark_blue3, colors.slate_gray, nil)
 
 --W
 Group.new("WarningMsg", colors.orange, colors.background, nil)
@@ -283,6 +288,9 @@ Group.new("IlluminatedCurWord", nil, nil, styles.underline)
 Group.new("IlluminatedWordText", nil, nil, styles.underline)
 Group.new("IlluminatedWordRead", nil, nil, styles.underline)
 Group.new("IlluminatedWordWrite", nil, nil, styles.underline)
+
+--nvim-tree
+Group.new("NvimTreeGitDirtyIcon", colors.green2, nil, nil)
 
 --obsidian
 Group.new("ObsidianTodo", colors.coral, nil, styles.bold)
