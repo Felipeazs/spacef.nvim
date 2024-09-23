@@ -268,12 +268,12 @@ Group.new("GitSignsChange", colors.blue3, nil, nil)
 Group.new("GitSignsDelete", colors.red, nil, nil)
 
 --headlines
-Group.new('Headline1', colors.yellow, nil, styles.bold)                --markdown
-Group.new('Headline2', colors.yellow:saturate(-0.2), nil, styles.bold) --markdown
-Group.new('Headline3', colors.yellow:saturate(-0.4), nil, styles.bold) --markdown
-Group.new('Headline4', colors.yellow:saturate(-0.6), nil, styles.bold) --markdown
-Group.new('Headline5', colors.yellow:saturate(-0.8), nil, styles.bold) --markdown
-Group.new('Headline6', colors.yellow:saturate(-1.0), nil, styles.bold) --markdown
+Group.new("Headline1", colors.yellow, nil, styles.bold) --markdown
+Group.new("Headline2", colors.yellow:saturate(-0.2), nil, styles.bold) --markdown
+Group.new("Headline3", colors.yellow:saturate(-0.4), nil, styles.bold) --markdown
+Group.new("Headline4", colors.yellow:saturate(-0.6), nil, styles.bold) --markdown
+Group.new("Headline5", colors.yellow:saturate(-0.8), nil, styles.bold) --markdown
+Group.new("Headline6", colors.yellow:saturate(-1.0), nil, styles.bold) --markdown
 
 --illuminate
 Group.new("IlluminatedWord", nil, nil, styles.underline)
