@@ -120,6 +120,9 @@ Group.new("NoiceCmdLinePopupBorder", colors.nord4, nil, nil)
 
 --O
 Group.new("Operator", colors.nord4, nil, nil)
+Group.new("Directory", colors.nord8)
+
+--P
 Group.new("Pmenu", colors.nord4, colors.black, nil)
 Group.new("PmenuSbar", nil, colors.nord3, nil)
 Group.new("PmenuSel", colors.nord3, colors.black, nil)
