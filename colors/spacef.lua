@@ -10,15 +10,6 @@ local styles = colorbuddy.styles
 --Colors based on Nord pallete: https://www.nordtheme.com/docs/colors-and-palettes
 Color.new("background", "#191B20")
 Color.new("black", "#242932")
-Color.new("nord4", "#D8DEE9")
-Color.new("nord3", "#555B6C")
-Color.new("nord8", "#88C0D0")
-Color.new("nord9", "#7EB7E6")
-Color.new("nord11", "#BF616A")
-Color.new("nord13", "#EBCB8B")
-Color.new("nord14", "#A3BE8C")
-Color.new("nord15", "#B48EAD")
-
 Color.new("nord0", "#2E3340")
 Color.new("nord1", "#3B4252")
 Color.new("nord2", "#434C5E")
