@@ -388,4 +388,4 @@ Group.new("WhichKeyGroup", colors.nord15, nil, nil)
 Group.new("WhichKeyDesc", colors.nord4, nil, nil)
 Group.new("WhichKeyFloat", colors.dark_blue, nil)
 
-Group.new("@varialbe.builtin", colors.nord4)
+Group.new("@variable.builtin", colors.nord14)
