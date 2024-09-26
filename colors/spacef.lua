@@ -365,6 +365,7 @@ Group.new("TSUnderline", nil, nil, styles.underline)
 Group.new("TSVariable", colors.nord4, nil, nil)
 Group.new("TSVariableBuiltin", colors.nord15, nil, styles.italic)
 Group.new("TSDefine", colors.nord11, nil, nil)
+Group.new("@type", colors.nord15, nil, nil)
 
 --Treesitter contxet
 Group.new("TreesitterContext", nil, colors.black, nil)
@@ -390,6 +391,7 @@ Group.new("WhichKeyFloat", colors.dark_blue, nil)
 
 Group.new("@variable.builtin", colors.nord14)
 
+--html
 Group.new("@constant.html", colors.nord13, nil, nil)
 Group.new("@tag.delimiter.html", colors.nord3, nil, nil)
 Group.new("@tag.html", colors.nord7, nil, nil)
