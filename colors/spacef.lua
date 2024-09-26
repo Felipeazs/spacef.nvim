@@ -366,7 +366,7 @@ Group.new("TSVariable", colors.nord4, nil, nil)
 Group.new("TSVariableBuiltin", colors.nord15, nil, styles.italic)
 Group.new("TSDefine", colors.nord11, nil, nil)
 Group.new("@type", colors.nord15, nil, nil)
-Group.new("@tag.tsx", colors.nord15, nil, nil)
+Group.new("@tag.tsx", colors.nord15:light(0.5), nil, nil)
 Group.new("@string.special.url.tsx", nil, nil, nil)
 Group.new("@import.identifier.tsx", colors.nord4, nil, nil)
 
