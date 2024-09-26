@@ -389,3 +389,8 @@ Group.new("WhichKeyDesc", colors.nord4, nil, nil)
 Group.new("WhichKeyFloat", colors.dark_blue, nil)
 
 Group.new("@variable.builtin", colors.nord14)
+
+Group.new("@constant.html", colors.nord13, nil, nil)
+Group.new("@tag.delimiter.html", colors.nord3, nil, nil)
+Group.new("@tag.html", colors.nord7, nil, nil)
+Group.new("@tag.attribute.html", colors.nord3, nil, nil)
