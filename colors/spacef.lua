@@ -105,7 +105,12 @@ Group.new("ModeMsg", colors.nord4, colors.background, nil)
 Group.new("MoreMsg", colors.nord11, nil, nil)
 Group.new("MsgArea", colors.nord4, nil, nil)
 Group.new("MsgSeparator", colors.nord4, colors.background, nil)
-Group.new("MarkviewHeading1", colors.nord13, nil, nil)
+Group.new("MarkviewHeading1", colors.nord7, nil, nil)
+Group.new("MarkviewHeading2", colors.nord8, nil, nil)
+Group.new("MarkviewHeading3", colors.nord9, nil, nil)
+Group.new("MarkviewHeading4", colors.nord10, nil, nil)
+Group.new("MarkviewHeading5", colors.nord11, nil, nil)
+Group.new("MarkviewHeading6", colors.nord12, nil, nil)
 
 --N
 Group.new("None", colors.nord4, nil, nil)
