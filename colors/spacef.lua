@@ -111,6 +111,7 @@ Group.new("MarkviewHeading3", colors.nord9, nil, nil)
 Group.new("MarkviewHeading4", colors.nord10, nil, nil)
 Group.new("MarkviewHeading5", colors.nord11, nil, nil)
 Group.new("MarkviewHeading6", colors.nord12, nil, nil)
+Group.new("MarkviewHeading2Sign", colors.nord10, nil, nil)
 
 --N
 Group.new("None", colors.nord4, nil, nil)
