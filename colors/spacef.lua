@@ -168,7 +168,7 @@ Group.new("StatusLineTerm", colors.nord14, colors.black, nil)
 Group.new("StatusLineTermNC", colors.nord3, colors.black, nil)
 Group.new("StorageClass", colors.nord11, nil, nil)
 -- Group.new("String", colors.nord13:saturate(-0.3), nil, nil)
-Group.new("String", colors.nord14:light(0.1), nil, styles.italic)
+Group.new("String", colors.powder_blue:light(), nil, styles.italic)
 Group.new("Structure", colors.nord9, nil, nil)
 Group.new("Substitute", colors.nord3, colors.nord12, nil)
 
