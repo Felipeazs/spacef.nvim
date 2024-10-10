@@ -383,6 +383,7 @@ Group.new("@tag.tsx", colors.nord9, nil, nil)
 Group.new("@string.special.url.tsx", nil, nil, nil)
 Group.new("@import.identifier.tsx", colors.nord4, nil, nil)
 Group.new("@variable.tsx", colors.nord4, nil, nil)
+Group.new("@type.builtin.tsx", colors.nord10, nil, nil)
 
 --Treesitter contxet
 Group.new("TreesitterContext", nil, colors.black, nil)
