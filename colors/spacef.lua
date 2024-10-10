@@ -170,6 +170,7 @@ Group.new("StorageClass", colors.nord11, nil, nil)
 Group.new("String", colors.nord15:light(), nil, styles.italic)
 Group.new("Structure", colors.nord9, nil, nil)
 Group.new("Substitute", colors.nord3, colors.nord12, nil)
+Group.new("@string.special.url.http", colors.nord7, nil, nil)
 
 --T
 Group.new("TabLine", colors.nord3, nil, nil)
