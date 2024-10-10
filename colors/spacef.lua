@@ -381,7 +381,7 @@ Group.new("@type", colors.nord15, nil, nil)
 -- Group.new("@tag.tsx", colors.nord15:dark(0.7), nil, nil)
 Group.new("@tag.tsx", colors.nord9, nil, nil)
 Group.new("@string.special.url.tsx", nil, nil, nil)
-Group.new("@import.identifier.tsx", colors.nord4, nil, nil)
+Group.new("@import.identifier.tsx", colors.nord4:dark(), nil, nil)
 
 --Treesitter contxet
 Group.new("TreesitterContext", nil, colors.black, nil)
