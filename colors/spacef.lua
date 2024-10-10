@@ -185,7 +185,7 @@ Group.new("Type", colors.nord9:saturate(0.2), nil, nil)
 Group.new("Typedef", colors.nord3, nil, styles.italic)
 
 --V
-Group.new("Variable", colors.nord4, nil, nil)
+Group.new("Variable", colors.nord6, nil, nil)
 Group.new("VertSplit", colors.dark_nord3, nil, nil)
 Group.new("Visual", nil, colors.nord0, nil) --selection
 Group.new("VisualSpecial", colors.slate_nord3, colors.nord0, nil)
@@ -374,14 +374,15 @@ Group.new("TSTodo", colors.nord11, nil, nil)
 Group.new("TSTypeQualifier", colors.nord11, nil, nil)
 Group.new("TSURI", colors.nord13, nil, styles.underline)
 Group.new("TSUnderline", nil, nil, styles.underline)
-Group.new("TSVariable", colors.nord4, nil, nil)
+Group.new("TSVariable", colors.nord6, nil, nil)
 Group.new("TSVariableBuiltin", colors.nord15, nil, styles.italic)
 Group.new("TSDefine", colors.nord11, nil, nil)
 Group.new("@type", colors.nord15, nil, nil)
 -- Group.new("@tag.tsx", colors.nord15:dark(0.7), nil, nil)
 Group.new("@tag.tsx", colors.nord9, nil, nil)
 Group.new("@string.special.url.tsx", nil, nil, nil)
-Group.new("@import.identifier.tsx", colors.nord4:light(), nil, nil)
+Group.new("@import.identifier.tsx", colors.nord4, nil, nil)
+Group.new("@variable.tsx", colors.nord4, nil, nil)
 
 --Treesitter contxet
 Group.new("TreesitterContext", nil, colors.black, nil)
