@@ -88,7 +88,7 @@ Group.new("Include", colors.nord11, nil, styles.italic)
 Group.new("@import", colors.nord7:saturate(0.3), nil, nil)
 
 --K
-Group.new("Keyword", colors.nord11, nil, styles.italic)
+Group.new("Keyword", colors.nord12, nil, styles.italic)
 
 --L
 Group.new("Label", colors.nord11, nil, nil)
