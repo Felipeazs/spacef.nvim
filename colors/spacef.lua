@@ -95,6 +95,7 @@ Group.new("Label", colors.nord11, nil, nil)
 Group.new("LineNr", colors.nord3, nil, nil)
 
 --M
+Group.new("@markup.link.label.tsx", colors.nord4, nil, nil)
 Group.new("Macro", colors.nord11, nil, styles.italic)
 Group.new("MatchParen", colors.nord4, colors.black, nil)
 Group.new("MatchParenCur", nil, nil, styles.underline)
