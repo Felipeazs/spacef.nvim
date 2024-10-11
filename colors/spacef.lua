@@ -386,8 +386,8 @@ Group.new("@string.special.url.tsx", nil, nil, nil)
 Group.new("@import.identifier.tsx", colors.nord4:dark(), nil, nil)
 Group.new("@variable.tsx", colors.nord4, nil, nil)
 Group.new("@type.builtin.tsx", colors.nord10, nil, styles.bold)
-Group.new("@keyword.import.tsx", colors.nord12, nil, styles.italic)
-Group.new("@keyword.export.tsx", colors.nord12, nil, styles.italic)
+Group.new("@keyword.import.tsx", colors.nord11, nil, styles.italic)
+Group.new("@keyword.export.tsx", colors.nord11, nil, styles.italic)
 
 --Treesitter contxet
 Group.new("TreesitterContext", nil, colors.black, nil)
