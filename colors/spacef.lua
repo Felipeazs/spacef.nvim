@@ -90,8 +90,6 @@ Group.new("@import", colors.nord7:saturate(0.3), nil, nil)
 
 --K
 Group.new("Keyword", colors.red, nil, styles.italic)
-Group.new("@keyword.import.tsx", colors.nord12, nil, styles.italic)
-Group.new("@keyword.export.tsx", colors.nord12, nil, styles.italic)
 
 --L
 Group.new("Label", colors.nord11, nil, nil)
@@ -381,13 +379,15 @@ Group.new("TSUnderline", nil, nil, styles.underline)
 Group.new("TSVariable", colors.nord6, nil, nil)
 Group.new("TSVariableBuiltin", colors.nord15, nil, styles.italic)
 Group.new("TSDefine", colors.nord11, nil, nil)
+
 Group.new("@type", colors.nord15, nil, nil)
--- Group.new("@tag.tsx", colors.nord15:dark(0.7), nil, nil)
 Group.new("@tag.tsx", colors.nord9, nil, nil)
 Group.new("@string.special.url.tsx", nil, nil, nil)
-Group.new("@import.identifier.tsx", colors.nord4, nil, nil)
+Group.new("@import.identifier.tsx", colors.nord4:dark(), nil, nil)
 Group.new("@variable.tsx", colors.nord4, nil, nil)
 Group.new("@type.builtin.tsx", colors.nord10, nil, styles.bold)
+Group.new("@keyword.import.tsx", colors.nord12, nil, styles.italic)
+Group.new("@keyword.export.tsx", colors.nord12, nil, styles.italic)
 
 --Treesitter contxet
 Group.new("TreesitterContext", nil, colors.black, nil)
