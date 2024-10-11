@@ -425,3 +425,5 @@ Group.new("@markup.heading.3.tsx", colors.nord8, nil, nil)
 Group.new("@markup.heading.4.tsx", colors.nord8, nil, nil)
 Group.new("@markup.heading.5.tsx", colors.nord8, nil, nil)
 Group.new("@markup.heading.6.tsx", colors.nord8, nil, nil)
+
+Group.new("@property.json", colors.nord13, nil, nil)
