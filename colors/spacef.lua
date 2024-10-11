@@ -90,6 +90,8 @@ Group.new("@import", colors.nord7:saturate(0.3), nil, nil)
 
 --K
 Group.new("Keyword", colors.red, nil, styles.italic)
+Group.new("@keyword.import.tsx", colors.nord12, nil, styles.italic)
+Group.new("@keyword.export.tsx", colors.nord12, nil, styles.italic)
 
 --L
 Group.new("Label", colors.nord11, nil, nil)
