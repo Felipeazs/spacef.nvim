@@ -27,6 +27,7 @@ Color.new("nord13", "#EBCB8B")
 Color.new("nord14", "#A3BE8C")
 Color.new("nord15", "#B48EAD")
 
+Color.new("red", "#E85A84")
 Color.new("dark_blue", "#16181D")
 Color.new("dark_nord3", "#21252D")
 Color.new("powder_blue", "#AEAFAD")
@@ -88,7 +89,7 @@ Group.new("Include", colors.nord11, nil, styles.italic)
 Group.new("@import", colors.nord7:saturate(0.3), nil, nil)
 
 --K
-Group.new("Keyword", colors.nord12, nil, styles.italic)
+Group.new("Keyword", colors.red, nil, styles.italic)
 
 --L
 Group.new("Label", colors.nord11, nil, nil)
