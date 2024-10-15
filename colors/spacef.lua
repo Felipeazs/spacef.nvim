@@ -80,6 +80,7 @@ Group.new("FloatBorder", colors.nord3, nil, nil)
 Group.new("FoldColumn", colors.nord3, nil, nil)
 Group.new("Folded", colors.nord4, colors.black, nil)
 Group.new("Function", colors.nord9, nil, styles.bold)
+Group.new("@function", colors.nord9, nil, styles.bold)
 
 --I
 Group.new("Identifier", colors.nord7:saturate(0.50), nil, nil)
