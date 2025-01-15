@@ -315,6 +315,11 @@ Group.new("ObsidianExtLinkIcon", colors.nord9, nil, nil)
 Group.new("ObsidianTag", colors.nord8, nil, styles.italic)
 Group.new("ObsidianHighlightText", nil, colors.nord11, nil)
 
+--oil-gitstatus
+Group.new("OilGitStatusWorkingTreeAdded", colors.nord8, nil, nil)
+Group.new("OilGitStatusWorkingTreeModified", colors.nord13, nil, nil)
+Group.new("OilGitStatusWorkingTreeDeleted", colors.nord11, nil, nil)
+
 --Telescope
 Group.new("TelescopeBorder", colors.nord4, nil, nil)
 Group.new("TelescopeMatching", colors.nord15, nil, nil)
