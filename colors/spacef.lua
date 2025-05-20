@@ -87,7 +87,7 @@ Group.new("Identifier", colors.shadow_green:saturate(0.50), nil, nil)
 Group.new("Ignore", colors.river_bed, nil, nil)
 Group.new("IncSearch", colors.contessa, colors.background, nil)
 Group.new("Include", colors.contessa, nil, styles.italic)
-Group.new("@import", colors.shadow_green:saturate(0.3), nil, nil)
+Group.new("@import", colors.bouquete, nil, nil)
 
 --K
 Group.new("Keyword", colors.mandy, nil, styles.italic)
@@ -189,7 +189,7 @@ Group.new("Typedef", colors.bouquete, nil, styles.italic)
 
 --V
 Group.new("Variable", colors.mystic, nil, nil)
-Group.new("VertSplit", colors.dark_bouquete, nil, nil)
+Group.new("VertSplit", colors.bouquete, nil, nil)
 Group.new("Visual", colors.mandy, colors.gunmetal, nil) --selection
 Group.new("VisualSpecial", colors.slate_bouquete, colors.gunmetal, nil)
 Group.new("VisualNOS", colors.gunmetal, colors.slate_bouquete, nil)
@@ -389,7 +389,7 @@ Group.new("TSDefine", colors.mandy, nil, nil)
 Group.new("@type", colors.bouquete, nil, nil)
 Group.new("@tag.tsx", colors.bouquete, nil, nil)
 Group.new("@string.special.url.tsx", nil, nil, nil)
-Group.new("@import.identifier.tsx", colors.mandy, nil, nil)
+Group.new("@import.identifier.tsx", colors.bouquete, nil, nil)
 Group.new("@variable.tsx", colors.mystic, nil, nil)
 Group.new("@type.builtin.tsx", colors.horizon, nil, styles.bold)
 Group.new("@keyword.import.tsx", colors.mandy, nil, styles.italic)
