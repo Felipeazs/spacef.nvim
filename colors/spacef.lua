@@ -19,7 +19,7 @@ Color.new("gunmetal", "#2E3340")
 Color.new("horizon", "#5E81AC")
 
 Color.new("mandy", "#E85A84")
-
+Color.new("mountbatten_pink", "#8B6F86")
 Color.new("mystic", "#D8DEE9")
 Color.new("river_bed", "#4C556A")
 Color.new("shadow_green", "#8FBCBB")
@@ -191,7 +191,7 @@ Group.new("Typedef", colors.bouquete, nil, styles.italic)
 --V
 Group.new("Variable", colors.mystic, nil, nil)
 Group.new("VertSplit", colors.bouquete, nil, nil)
-Group.new("Visual", colors.mandy, colors.gunmetal, nil) --selection
+Group.new("Visual", nil, colors.gunmetal, nil) --selection
 Group.new("VisualSpecial", colors.slate_bouquete, colors.gunmetal, nil)
 Group.new("VisualNOS", colors.gunmetal, colors.slate_bouquete, nil)
 
@@ -392,7 +392,8 @@ Group.new("@tag.tsx", colors.bouquete, nil, nil)
 Group.new("@string.special.url.tsx", nil, nil, nil)
 Group.new("@import.identifier.tsx", colors.bouquete, nil, nil)
 Group.new("@variable.tsx", colors.gray_suit, nil, nil)
-Group.new("@type.builtin.tsx", colors.horizon, nil, styles.bold)
+Group.new("@type.builtin.tsx", colors.mountbatten_pink, nil, styles.bold)
+Group.new("@type.builtin.typescript", colors.mountbatten_pink, nil, styles.bold)
 Group.new("@keyword.import.tsx", colors.mandy, nil, styles.italic)
 Group.new("@keyword.export.tsx", colors.mandy, nil, styles.italic)
 
