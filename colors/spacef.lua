@@ -383,8 +383,8 @@ Group.new("TSTodo", colors.mandy, nil, nil)
 Group.new("TSTypeQualifier", colors.mandy, nil, nil)
 Group.new("TSURI", colors.nord13, nil, styles.underline)
 Group.new("TSUnderline", nil, nil, styles.underline)
-Group.new("TSVariable", colors.mystic, nil, nil)
-Group.new("TSVariableBuiltin", colors.bouquete, nil, styles.italic)
+Group.new("TSVariable", colors.gray_suit, nil, nil)
+Group.new("TSVariableBuiltin", colors.gray_suit, nil, styles.italic)
 Group.new("TSDefine", colors.mandy, nil, nil)
 
 Group.new("@type", colors.bouquete, nil, nil)
@@ -418,7 +418,8 @@ Group.new("WhichKeyGroup", colors.bouquete, nil, nil)
 Group.new("WhichKeyDesc", colors.mystic, nil, nil)
 Group.new("WhichKeyFloat", colors.dark_blue, nil)
 
-Group.new("@variable.builtin", colors.nord14)
+Group.new("@variable.builtin", colors.gray_suit, nil, nil)
+Group.new("@variable.member.typescript", colors.gray_suit, nil, nil)
 
 --html
 Group.new("@constant.html", colors.mandy, nil, nil)
