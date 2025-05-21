@@ -133,7 +133,7 @@ Group.new("NoiceCmdLinePopupTitle", colors.mystic, nil, nil)
 Group.new("NoiceCmdLinePopupBorder", colors.mystic, nil, nil)
 
 --O
-Group.new("Operator", colors.mystic, nil, nil)
+Group.new("Operator", colors.bouquete, nil, nil)
 Group.new("Directory", colors.glacier)
 
 --P
@@ -433,3 +433,4 @@ Group.new("@markup.heading.5.tsx", colors.glacier, nil, nil)
 Group.new("@markup.heading.6.tsx", colors.glacier, nil, nil)
 
 Group.new("@property.json", colors.nord13, nil, nil)
+Group.new("@operator.tsx", colors.bouquete, nil, nil)
