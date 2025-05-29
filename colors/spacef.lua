@@ -387,6 +387,7 @@ Group.new("TSVariable", colors.gray_suit, nil, nil)
 Group.new("TSVariableBuiltin", colors.gray_suit, nil, styles.italic)
 Group.new("TSDefine", colors.mandy, nil, nil)
 
+--typescript tsx
 Group.new("@type", colors.bouquete, nil, nil)
 Group.new("@tag.tsx", colors.bouquete, nil, nil)
 Group.new("@string.special.url.tsx", nil, nil, nil)
@@ -442,4 +443,4 @@ Group.new("@property.json", colors.nord13, nil, nil)
 Group.new("@operator.tsx", colors.bouquete, nil, nil)
 
 --python
-Group.new("@funciont.builtin.python", colors.glacier, nil, nil)
+Group.new("@function.builtin.python", colors.glacier, nil, nil)
