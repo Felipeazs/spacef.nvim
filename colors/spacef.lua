@@ -465,6 +465,7 @@ local group_defs = {
 	["@operator.tsx"] = { colors.bouquete, nil, nil },
 	-- python
 	["@function.builtin.python"] = { colors.glacier, nil, nil },
+	["@type.python"] = { colors.mountbatten_pink, nil, nil },
 }
 
 for group, def in pairs(group_defs) do
