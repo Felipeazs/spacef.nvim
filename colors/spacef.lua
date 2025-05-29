@@ -463,9 +463,13 @@ local group_defs = {
 	["@markup.heading.6.tsx"] = { colors.glacier, nil, nil },
 	["@property.json"] = { colors.nord13, nil, nil },
 	["@operator.tsx"] = { colors.bouquete, nil, nil },
+
 	-- python
 	["@function.builtin.python"] = { colors.glacier, nil, nil },
 	["@type.python"] = { colors.mountbatten_pink, nil, nil },
+
+	--css
+	["@property.css"] = { colors.glacier, nil, nil },
 }
 
 for group, def in pairs(group_defs) do
