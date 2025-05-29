@@ -440,3 +440,6 @@ Group.new("@markup.heading.6.tsx", colors.glacier, nil, nil)
 
 Group.new("@property.json", colors.nord13, nil, nil)
 Group.new("@operator.tsx", colors.bouquete, nil, nil)
+
+--python
+Group.new("@funciont.builtin.python", colors.glacier, nil, nil)
