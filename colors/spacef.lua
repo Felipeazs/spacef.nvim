@@ -260,11 +260,10 @@ local group_defs = {
 	DiagnosticSignHint = { colors.glacier, nil, nil },
 	DiagnosticSignInfo = { colors.nord13, nil, nil },
 	DiagnosticSignWarn = { colors.mandy, nil, nil },
-	DiagnosticUnderlineError = { nil, nil, styles.underline },
-	DiagnosticUnderlineHint = { nil, nil, styles.underline },
-	DiagnosticUnderlineInfo = { nil, nil, styles.underline },
-	DiagnosticUnderlineWarn = { nil, nil, styles.underline },
-	DiagnosticVirtualTextError = { colors.mandy, nil, nil },
+	DiagnosticUnderlineError = { colors.river_bed, nil, styles.underline + styles.italic },
+	DiagnosticUnderlineHint = { colors.river_bed, nil, styles.underline },
+	DiagnosticUnderlineInfo = { colors.river_bed, nil, styles.underline },
+	DiagnosticUnderlineWarn = { colors.river_bed, nil, styles.underline },
 	DiagnosticVirtualTextHint = { colors.bouquete, nil, nil },
 
 	-- Plugin: diffview
