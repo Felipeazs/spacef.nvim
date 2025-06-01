@@ -511,6 +511,7 @@ local group_defs = {
 	["BufferVisibleModBtn"] = { nil, nil, nil },
 	["BufferVisibleSign"] = { nil, nil, nil },
 	["BufferVisibleSignRight"] = { nil, nil, nil },
+	["BufferScrollArrow"] = { colors.nord13, nil, nil },
 	["BufferOffset"] = { nil, nil, nil },
 	["BufferTabpageFill"] = { nil, nil, nil },
 }
