@@ -199,7 +199,7 @@ local group_defs = {
 	-- Plugin: bufferline
 	BufferCurrent = { colors.mystic, nil, styles.bold },
 	BufferCurrentIndex = { nil, nil, nil },
-	BufferCurrentMod = { colors.horizon, nil, nil },
+	BufferCurrentMod = { colors.horizon, colors.horizon, nil },
 	BufferCurrentSign = { colors.horizon, nil, nil },
 	BufferCurrentTarget = { nil, nil, styles.bold },
 	BufferInactive = { colors.bouquete, colors.dark_blue, nil },
@@ -471,6 +471,7 @@ local group_defs = {
 
 	-- barbar
 	["BufferCurrentBtn"] = { nil, nil, nil },
+	["BufferCurrentModBtn"] = { colors.horizon, nil, nil },
 	["BufferCurrentError"] = { nil, nil, nil },
 	["BufferCurrentHint"] = { nil, nil, nil },
 	["BufferCurrentIcon"] = { nil, nil, nil },
@@ -480,7 +481,6 @@ local group_defs = {
 	["BufferCurrentPin"] = { nil, nil, nil },
 	["BufferCurrentPinButton"] = { nil, nil, nil },
 	["BufferCurrentSignRight"] = { nil, nil, nil },
-	["BufferCurrentModBtn"] = { nil, nil, nil },
 	["BufferInactiveBtn"] = { nil, nil, nil },
 	["BufferInactiveError"] = { nil, nil, nil },
 	["BufferInactiveHint"] = { nil, nil, nil },
