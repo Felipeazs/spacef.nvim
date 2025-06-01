@@ -197,11 +197,11 @@ local group_defs = {
 	lCursor = { colors.mystic, nil, nil },
 
 	-- Plugin: bufferline
-	BufferCurrent = { colors.mystic, colors.bouquete, nil },
-	BufferCurrentIndex = { colors.mystic, colors.background, nil },
-	BufferCurrentMod = { colors.nord13, colors.background, nil },
-	BufferCurrentSign = { colors.glacier, colors.background, nil },
-	BufferCurrentTarget = { colors.mandy, colors.background, styles.bold },
+	BufferCurrent = { colors.mystic, nil, styles.bold },
+	BufferCurrentIndex = { nil, nil, nil },
+	BufferCurrentMod = { colors.nord13, nil, nil },
+	BufferCurrentSign = { nil, nil, nil },
+	BufferCurrentTarget = { nil, nil, styles.bold },
 	BufferInactive = { colors.bouquete, colors.dark_blue, nil },
 	BufferInactiveIndex = { colors.bouquete, colors.dark_blue, nil },
 	BufferInactiveMod = { colors.nord13, colors.dark_blue, nil },
@@ -210,9 +210,9 @@ local group_defs = {
 	BufferVisible = { colors.mystic, colors.background, nil },
 	BufferVisibleIndex = { colors.mystic, colors.background, nil },
 	BufferVisibleMod = { colors.nord13, colors.background, nil },
-	BufferVisibleSign = { colors.nord14, colors.background, nil },
-	BufferVisibleTarget = { colors.mandy, colors.background, styles.bold },
-	BufferLineFill = { colors.mystic, colors.bouquete, styles.bold },
+	BufferVisibleSign = { colors.nord14, nil, nil },
+	BufferVisibleTarget = { colors.mandy, nil, styles.bold },
+	BufferLineFill = { nil, nil, styles.bold },
 
 	-- Plugin: nvim-cmp
 	CmpDocumentation = { colors.mystic, nil, nil },
@@ -261,9 +261,9 @@ local group_defs = {
 	DiagnosticSignInfo = { colors.nord13, nil, nil },
 	DiagnosticSignWarn = { colors.mandy, nil, nil },
 	DiagnosticUnderlineError = { colors.river_bed, nil, styles.underline + styles.italic },
-	DiagnosticUnderlineHint = { colors.river_bed, nil, styles.underline },
-	DiagnosticUnderlineInfo = { colors.river_bed, nil, styles.underline },
-	DiagnosticUnderlineWarn = { colors.river_bed, nil, styles.underline },
+	DiagnosticUnderlineHint = { colors.river_bed, nil, styles.underline + styles.italic },
+	DiagnosticUnderlineInfo = { colors.river_bed, nil, styles.underline + styles.italic },
+	DiagnosticUnderlineWarn = { colors.river_bed, nil, styles.underline + styles.italic },
 	DiagnosticVirtualTextHint = { colors.bouquete, nil, nil },
 
 	-- Plugin: diffview
@@ -469,6 +469,19 @@ local group_defs = {
 
 	--css
 	["@property.css"] = { colors.glacier, nil, nil },
+
+	-- barbar
+	["BufferCurrentBtn"] = { nil, nil, nil },
+	["BufferCurrentError"] = { nil, nil, nil },
+	["BufferCurrentHint"] = { nil, nil, nil },
+	["BufferCurrentIcon"] = { nil, nil, nil },
+	["BufferAlternateIcon"] = { nil, nil, nil },
+	["BufferVisibleIcon"] = { nil, nil, nil },
+	["BufferInactiveIcon"] = { nil, nil, nil },
+	["BufferCurrentPin"] = { nil, nil, nil },
+	["BufferCurrentPinButton"] = { nil, nil, nil },
+	["BufferCurrentSignRight"] = { nil, nil, nil },
+	["BufferCurrentModBtn"] = { nil, nil, nil },
 }
 
 for group, def in pairs(group_defs) do
