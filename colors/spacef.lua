@@ -114,7 +114,7 @@ local group_defs = {
 	MarkviewHeading6Sign = { colors.antique_brass, nil, nil },
 
 	None = { colors.mystic, nil, nil },
-	NonText = { colors.bouquete, nil, nil },
+	NonText = { colors.river_bed, nil, nil },
 	Normal = { colors.mystic, nil, nil },
 	NormalFloat = { nil, nil, nil },
 	NormalNC = { colors.mystic, nil, nil },
@@ -340,11 +340,11 @@ local group_defs = {
 
 	-- Plugin: oil
 	OilGitStatusWorkingTreeAdded = { colors.glacier, nil, nil },
-	OilGitStatusWorkingTreeModified = { colors.nord13, nil, nil },
+	OilGitStatusWorkingTreeModified = { colors.bouquete, nil, nil },
 	OilGitStatusWorkingTreeDeleted = { colors.mandy, nil, nil },
 
 	-- Plugin: telescope
-	TelescopeBorder = { colors.mystic, nil, nil },
+	TelescopeBorder = { colors.bouquete, nil, nil },
 	TelescopeMatching = { colors.bouquete, nil, nil },
 	statuscolPromptPrefix = { colors.bouquete, nil, nil },
 	TelescopeSelection = { colors.bouquete, colors.charade, styles.bold },
