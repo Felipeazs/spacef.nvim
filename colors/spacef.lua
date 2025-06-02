@@ -517,6 +517,8 @@ local group_defs = {
 	["BufferScrollArrow"] = { colors.nord13, nil, nil },
 	["BufferOffset"] = { nil, nil, nil },
 	["BufferTabpageFill"] = { nil, nil, nil },
+
+	["@classname.css"] = { colors.bouquete, nil, nil },
 }
 
 for group, def in pairs(group_defs) do
