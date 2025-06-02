@@ -342,6 +342,9 @@ local group_defs = {
 	OilGitStatusWorkingTreeAdded = { colors.glacier, nil, nil },
 	OilGitStatusWorkingTreeModified = { colors.bouquete, nil, nil },
 	OilGitStatusWorkingTreeDeleted = { colors.mandy, nil, nil },
+	OilGitStatusIndexAdded = { colors.glacier, nil, nil },
+	OilGitStatusIndexModified = { colors.bouquete, nil, nil },
+	OilGitStatusIndexDeleted = { colors.mandy, nil, nil },
 
 	-- Plugin: telescope
 	TelescopeBorder = { colors.bouquete, nil, nil },
