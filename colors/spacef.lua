@@ -519,6 +519,7 @@ local group_defs = {
 	["BufferTabpageFill"] = { nil, nil, nil },
 
 	["@classname.css"] = { colors.bouquete, nil, nil },
+	["@operator.css"] = { colors.nord14, nil, nil },
 }
 
 for group, def in pairs(group_defs) do
