@@ -518,8 +518,16 @@ local group_defs = {
 	["BufferOffset"] = { nil, nil, nil },
 	["BufferTabpageFill"] = { nil, nil, nil },
 
+	-- css
 	["@classname.css"] = { colors.bouquete, nil, nil },
 	["@operator.css"] = { colors.nord14, nil, nil },
+
+	-- Copilot
+	["CopilotSuggestion"] = { colors.mountbatten_pink, nil, nil },
+	["CopilotSuggestionBorder"] = { colors.bouquete, nil, nil },
+	["CopilotSuggestionActive"] = { colors.nord14, nil, nil },
+	["CopilotSuggestionActiveBorder"] = { colors.nord14, nil, nil },
+	["CopilotSuggestionText"] = { colors.mystic, nil, nil },
 }
 
 for group, def in pairs(group_defs) do
