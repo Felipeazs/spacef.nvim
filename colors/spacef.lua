@@ -100,18 +100,30 @@ local group_defs = {
 	MoreMsg = { colors.mandy, nil, nil },
 	MsgArea = { colors.mystic, nil, nil },
 	MsgSeparator = { colors.mystic, colors.background, nil },
+
 	MarkviewHeading1 = { colors.shadow_green, nil, nil },
-	MarkviewHeading2 = { colors.glacier, nil, nil },
+	MarkviewHeading2 = { colors.bouquete, nil, nil },
 	MarkviewHeading3 = { colors.glacier, nil, nil },
 	MarkviewHeading4 = { colors.horizon, nil, nil },
 	MarkviewHeading5 = { colors.mandy, nil, nil },
 	MarkviewHeading6 = { colors.antique_brass, nil, nil },
 	MarkviewHeading1Sign = { colors.shadow_green, nil, nil },
-	MarkviewHeading2Sign = { colors.glacier, nil, nil },
+	MarkviewHeading2Sign = { colors.bouquete, nil, nil },
 	MarkviewHeading3Sign = { colors.glacier, nil, nil },
 	MarkviewHeading4Sign = { colors.horizon, nil, nil },
 	MarkviewHeading5Sign = { colors.mandy, nil, nil },
 	MarkviewHeading6Sign = { colors.antique_brass, nil, nil },
+
+	MarkviewCode = { colors.mystic, colors.background, nil },
+	MarkviewCodeInfo = { colors.gunmetal, colors.background, nil },
+	MarkviewCodeFg = { colors.background, colors.background, nil },
+	MarkviewInlineCode = { colors.gunmetal, colors.background, nil },
+
+	MarkviewListItemMinus = { colors.mystic, nil, nil },
+	MarkviewListItemPlus = { colors.mandy, nil, nil },
+	MarkviewListItemStar = { colors.nord13, nil, nil },
+
+	MarkviewCheckboxUnchecked = { colors.mystic, nil, nil },
 
 	None = { colors.mystic, nil, nil },
 	NonText = { colors.river_bed, nil, nil },
