@@ -37,7 +37,7 @@ end
 local group_defs = {
 	Boolean = { colors.contessa, nil, styles.italic },
 	Character = { colors.nord13, nil, nil },
-	CodeBlock = { colors.bouquete, colors.charade, nil }, --markdown code blocks
+	CodeBlock = { colors.bouquete, colors.gunmetal, nil }, --markdown code blocks
 	ColorColumn = { nil, colors.charade, nil },
 	Comment = { colors.river_bed, nil, styles.italic },
 	Conceal = { nil, nil, nil },
