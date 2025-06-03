@@ -81,7 +81,7 @@ local group_defs = {
 		nil,
 	},
 	Ignore = { colors.river_bed, nil, nil },
-	IncSearch = { colors.contessa, colors.background, nil },
+	IncSearch = { colors.antique_brass, nil, nil },
 	Include = { colors.contessa, nil, styles.italic },
 	["@import"] = { colors.bouquete, nil, nil },
 
@@ -544,8 +544,6 @@ local group_defs = {
 	["CopilotSuggestionActive"] = { colors.nord14, nil, nil },
 	["CopilotSuggestionActiveBorder"] = { colors.nord14, nil, nil },
 	["CopilotSuggestionText"] = { colors.mystic, nil, nil },
-
-	YankHighlight = { colors.antique_brass, nil, nil },
 }
 
 for group, def in pairs(group_defs) do
