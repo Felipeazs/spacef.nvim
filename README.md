@@ -17,6 +17,8 @@ npm install color scheme
 
 ### Lists
 
+`Hola`
+
 #### Unordered List
 
 ##### - Item 1
@@ -32,7 +34,7 @@ npm install color scheme
         1. Item 7
         2. Item 8
 
-###### - checkbox 2
+###### Heading 7
 
 - [-] checkbox 1
 - [ ] checkbox 2

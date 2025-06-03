@@ -48,7 +48,7 @@ local group_defs = {
 	Cursor = { colors.nord13, colors.background, nil },
 	CursorColumn = { nil, nil, nil },
 	CursorLine = { nil, colors.gunmetal, nil },
-	CursorLineNr = { colors.mystic, colors.indigo, styles.bold },
+	CursorLineNr = { colors.mystic, colors.gunmetal, styles.bold },
 
 	Dash = { colors.mystic, nil, nil }, -- markdown dash line
 	Debug = { colors.mystic, nil, nil },
@@ -113,11 +113,11 @@ local group_defs = {
 	MarkviewHeading4Sign = { colors.horizon, nil, nil },
 	MarkviewHeading5Sign = { colors.mandy, nil, nil },
 	MarkviewHeading6Sign = { colors.antique_brass, nil, nil },
-
-	MarkviewCode = { colors.mystic, colors.background, nil },
+	--
+	MarkviewCode = { colors.gray_suit, colors.background, nil },
 	MarkviewCodeInfo = { colors.gunmetal, colors.background, nil },
 	MarkviewCodeFg = { colors.background, colors.background, nil },
-	MarkviewInlineCode = { colors.gunmetal, colors.background, nil },
+	MarkviewInlineCode = { colors.bouquete, nil, nil },
 
 	MarkviewListItemMinus = { colors.mystic, nil, nil },
 	MarkviewListItemPlus = { colors.mandy, nil, nil },
