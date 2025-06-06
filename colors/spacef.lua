@@ -113,17 +113,18 @@ local group_defs = {
 	MarkviewHeading4Sign = { colors.horizon, nil, nil },
 	MarkviewHeading5Sign = { colors.mandy, nil, nil },
 	MarkviewHeading6Sign = { colors.antique_brass, nil, nil },
+	["@markup.raw.markdown_inline"] = { colors.bouquete, nil, styles.italic },
 	--
 	-- MarkviewCode = { colors.gray_suit, colors.background, nil },
 	-- MarkviewCodeInfo = { colors.gunmetal, colors.background, nil },
 	-- MarkviewCodeFg = { colors.background, colors.background, nil },
-	-- MarkviewInlineCode = { colors.bouquete, nil, nil },
+	MarkviewInlineCode = { colors.bouquete, nil, nil },
 	--
 	-- MarkviewListItemMinus = { colors.mystic, nil, nil },
 	-- MarkviewListItemPlus = { colors.mandy, nil, nil },
 	-- MarkviewListItemStar = { colors.nord13, nil, nil },
 	--
-	-- MarkviewCheckboxUnchecked = { colors.mystic, nil, nil },
+	-- MarkviewCheckboxUnchecked = { nil, nil, nil },
 
 	None = { colors.mystic, nil, nil },
 	NonText = { colors.river_bed, nil, nil },

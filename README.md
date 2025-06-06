@@ -49,5 +49,3 @@ npm install color scheme
 - third
 
 Made with Colorbuddy
-
-hellasdfasdfo
