@@ -1,6 +1,7 @@
 ---
 id: test
 title: Test Markdown
+lang: es-ES
 ---
 
 # Custom Neovim Color scheme
@@ -48,3 +49,5 @@ npm install color scheme
 - third
 
 Made with Colorbuddy
+
+hellasdfasdfo
