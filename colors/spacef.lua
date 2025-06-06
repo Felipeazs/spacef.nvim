@@ -116,7 +116,7 @@ local group_defs = {
 	["@markup.raw.markdown_inline"] = { colors.bouquete, nil, styles.italic },
 	--
 	-- MarkviewCode = { colors.gray_suit, colors.background, nil },
-	-- MarkviewCodeInfo = { colors.gunmetal, colors.background, nil },
+	MarkviewCodeInfo = { colors.gunmetal, colors.background, nil },
 	-- MarkviewCodeFg = { colors.background, colors.background, nil },
 	MarkviewInlineCode = { colors.bouquete, nil, nil },
 	--
