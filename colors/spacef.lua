@@ -47,7 +47,7 @@ local group_defs = {
 	["@constant.builtin.lua"] = { colors.mandy, nil, nil },
 	Cursor = { colors.nord13, colors.background, nil },
 	CursorColumn = { nil, nil, nil },
-	CursorLine = { nil, colors.gunmetal, styles.bold },
+	CursorLine = { nil, colors.gunmetal, nil },
 	CursorLineNr = { colors.mystic, colors.gunmetal, styles.bold },
 
 	Dash = { colors.mystic, nil, nil }, -- markdown dash line
