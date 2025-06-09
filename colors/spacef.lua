@@ -4,7 +4,6 @@ local colors = colorbuddy.colors
 local Group = colorbuddy.Group
 local styles = colorbuddy.styles
 
--- 1. Color definitions
 local color_defs = {
 	antique_brass = "#D08770",
 	bouquete = "#B48EAD",
@@ -33,7 +32,6 @@ for name, hex in pairs(color_defs) do
 	Color.new(name, hex)
 end
 
--- 2. Highlight group definitions
 local group_defs = {
 	Boolean = { colors.contessa, nil, styles.italic },
 	Character = { colors.nord13, nil, nil },
@@ -172,7 +170,7 @@ local group_defs = {
 	StorageClass = { colors.mandy, nil, nil },
 	String = {
 		function()
-			return colors.mountbatten_pink:light()
+			return colors.bouquete:saturate(0.2)
 		end,
 		nil,
 		styles.italic,
