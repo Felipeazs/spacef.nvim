@@ -198,7 +198,13 @@ local group_defs = {
 
 	Variable = { colors.mystic, nil, nil },
 	VertSplit = { colors.bouquete, nil, nil },
-	Visual = { nil, colors.gunmetal, nil },
+	Visual = {
+		nil,
+		function()
+			return colors.gunmetal:light()
+		end,
+		nil,
+	},
 	VisualSpecial = { colors.slate_bouquete, colors.gunmetal, nil },
 	VisualNOS = { colors.gunmetal, colors.slate_bouquete, nil },
 
