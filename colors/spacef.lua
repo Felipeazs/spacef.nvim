@@ -170,7 +170,7 @@ local group_defs = {
 	StorageClass = { colors.mandy, nil, nil },
 	String = {
 		function()
-			return colors.mandy.light()
+			return colors.shadow_green:saturate(0.1)
 		end,
 		nil,
 		styles.italic,
