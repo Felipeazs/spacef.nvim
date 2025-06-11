@@ -16,6 +16,13 @@ lang: es-ES
 npm install color scheme
 ```
 
+```javascript
+function test() {
+	console.log("Hello, World!")
+	return <p class="hola">Hola Mundo</p>
+}
+```
+
 ### Lists
 
 `Hola`
@@ -48,4 +55,4 @@ npm install color scheme
 - second
 - third
 
-Made with Colorbuddy
+"Made with Colorbuddy"
