@@ -197,7 +197,7 @@ local group_defs = {
 	Typedef = { colors.bouquete, nil, styles.italic },
 
 	Variable = { colors.mystic, nil, nil },
-	VertSplit = { colors.bouquete, nil, nil },
+	VertSplit = { nil, nil, nil },
 	Visual = {
 		nil,
 		function()
@@ -207,6 +207,8 @@ local group_defs = {
 	},
 	VisualSpecial = { colors.slate_bouquete, colors.gunmetal, nil },
 	VisualNOS = { colors.gunmetal, colors.slate_bouquete, nil },
+
+	WinSeparator = { colors.gray_suit, nil, nil },
 
 	WarningMsg = { colors.mandy, colors.background, nil },
 	mysticspace = { colors.blue_bouquete, nil, nil },
