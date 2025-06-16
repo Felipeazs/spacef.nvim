@@ -208,7 +208,7 @@ local group_defs = {
 	VisualSpecial = { colors.slate_bouquete, colors.gunmetal, nil },
 	VisualNOS = { colors.gunmetal, colors.slate_bouquete, nil },
 
-	WinSeparator = { colors.bouquete, nil, nil },
+	WinSeparator = { colors.horizon, nil, nil },
 
 	WarningMsg = { colors.mandy, colors.background, nil },
 	mysticspace = { colors.blue_bouquete, nil, nil },
