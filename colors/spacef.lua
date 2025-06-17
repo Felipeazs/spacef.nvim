@@ -551,6 +551,14 @@ local group_defs = {
 	["CopilotSuggestionActive"] = { colors.nord14, nil, nil },
 	["CopilotSuggestionActiveBorder"] = { colors.nord14, nil, nil },
 	["CopilotSuggestionText"] = { colors.mystic, nil, nil },
+
+	--Zsh
+	["ZshComment"] = { colors.gunmetal, nil, styles.italic },
+	["ZshFunction"] = { colors.glacier, nil, styles.bold },
+	["ZshKeyword"] = { colors.mandy, nil, styles.italic },
+	["ZshParameter"] = { colors.mystic, nil, nil },
+	["ZshString"] = { colors.shadow_green, nil, styles.italic },
+	["ZshVariable"] = { colors.gray_suit, nil, nil },
 }
 
 for group, def in pairs(group_defs) do
