@@ -35,7 +35,7 @@ end
 local group_defs = {
 	Boolean = { colors.contessa, nil, styles.italic },
 	Character = { colors.nord13, nil, nil },
-	CodeBlock = { colors.bouquete, colors.gunmetal, nil }, --markdown code blocks
+	-- CodeBlock = { colors.bouquete, colors.gunmetal, nil }, --markdown code blocks
 	ColorColumn = { nil, colors.charade, nil },
 	Comment = { colors.river_bed, nil, styles.italic },
 	Conceal = { nil, nil, nil },
@@ -48,7 +48,7 @@ local group_defs = {
 	CursorLine = { nil, colors.gunmetal, styles.bold },
 	CursorLineNr = { colors.mystic, colors.gunmetal, styles.bold },
 
-	Dash = { colors.mystic, nil, nil }, -- markdown dash line
+	-- Dash = { colors.mystic, nil, nil }, -- markdown dash line
 	Debug = { colors.mystic, nil, nil },
 	Define = { colors.glacier, nil, nil },
 	Delimiter = { colors.river_bed, nil, nil },
@@ -111,12 +111,12 @@ local group_defs = {
 	MarkviewHeading4Sign = { colors.horizon, nil, nil },
 	MarkviewHeading5Sign = { colors.mandy, nil, nil },
 	MarkviewHeading6Sign = { colors.antique_brass, nil, nil },
-	["@markup.raw.markdown_inline"] = { colors.bouquete, nil, styles.italic },
+	-- ["@markup.raw.markdown_inline"] = { colors.bouquete, nil, styles.italic },
 	--
 	-- MarkviewCode = { colors.gray_suit, colors.background, nil },
-	MarkviewCodeInfo = { colors.gunmetal, colors.background, nil },
+	-- MarkviewCodeInfo = { colors.gunmetal, colors.background, nil },
 	-- MarkviewCodeFg = { colors.background, colors.background, nil },
-	MarkviewInlineCode = { colors.bouquete, nil, nil },
+	-- MarkviewInlineCode = { colors.bouquete, nil, nil },
 	--
 	-- MarkviewListItemMinus = { colors.mystic, nil, nil },
 	-- MarkviewListItemPlus = { colors.mandy, nil, nil },
@@ -147,7 +147,7 @@ local group_defs = {
 
 	Question = { colors.nord14, nil, nil },
 	QuickFixLine = { colors.antique_brass, nil, nil },
-	Quote = { colors.antique_brass, nil, nil }, --markdown quotes
+	-- Quote = { colors.antique_brass, nil, nil }, --markdown quotes
 
 	Repeat = { colors.mandy, nil, nil },
 
