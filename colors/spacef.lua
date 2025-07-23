@@ -168,13 +168,7 @@ local group_defs = {
 	StatusLineTerm = { colors.nord14, colors.charade, nil },
 	StatusLineTermNC = { colors.bouquete, colors.charade, nil },
 	StorageClass = { colors.mandy, nil, nil },
-	String = {
-		function()
-			return colors.shadow_green:saturate(0.1)
-		end,
-		nil,
-		styles.italic,
-	},
+	String = { colors.nord14, nil, styles.italic },
 	Structure = { colors.glacier, nil, nil },
 	Substitute = { colors.bouquete, colors.antique_brass, nil },
 	["@string.special.url.http"] = { colors.shadow_green, nil, nil },
